@@ -1,0 +1,15 @@
+{
+  "name": "nodefirststeps",
+  "version": "1.0.0",
+  "description": "i'm going to create basic api that fetchs data and return them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
