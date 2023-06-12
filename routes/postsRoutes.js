@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const posts = require('../controllers/postsController');
 
-router.get('/hello', async (req, res) => {
+router.get('/api/v1/getFivePosts', async (req, res) => {
     try {
         const data = await posts.renderedData;
         res.send(data);
